@@ -49,6 +49,11 @@ PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
+LEGION_BUILD_TYPE := OFFICIAL
+
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=Murad
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
 
